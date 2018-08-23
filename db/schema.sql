@@ -5,8 +5,8 @@
 --      * **burger_name**: a string.
 --      * **devoured**: a boolean.
 
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE burger_db_sequelize;
+USE burger_db_sequelize;
 
 CREATE TABLE burgers (
     id INT AUTO_INCREMENT NOT NULL,
